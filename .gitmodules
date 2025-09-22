@@ -13,3 +13,7 @@
 	path = external/Group-15
 	url = https://github.com/Kolde16/Group-15.git
 	branch = main
+[submodule "external/ApocalypseBIM"]
+	path = external/ApocalypseBIM
+	url = https://github.com/teiturteitur/ApocalypseBIM.git
+	branch = main
