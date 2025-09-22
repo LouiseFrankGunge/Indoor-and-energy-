@@ -9,3 +9,7 @@
 	path = external/Group-13
 	url = https://github.com/s223928/Group-13.git
 	branch = main
+[submodule "external/Group-15"]
+	path = external/Group-15
+	url = https://github.com/Kolde16/Group-15.git
+	branch = main
