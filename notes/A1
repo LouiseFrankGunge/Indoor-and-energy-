@@ -1,0 +1,33 @@
+Explanation of the commands we used
+
+ifcopenshell.open("your_model.ifc")
+
+Loads the IFC file into memory.
+Now you can query the IFC structure using by_type, attributes, etc.
+
+
+ifc_file.by_type("IfcFlowSegment")
+
+Gets all objects of type IfcFlowSegment.
+In IFC, ducts and pipes are usually represented as IfcFlowSegment entities.
+This will give you both round and rectangular ducts.
+
+
+duct.Representation
+
+Each product in IFC can have a Representation, which describes its geometry (shapes, profiles, solids, etc.).
+rep.Items inside Representation.Representations
+A representation can contain multiple geometric items.
+For ducts, the most common one is IfcExtrudedAreaSolid.
+
+
+IfcExtrudedAreaSolid
+
+Defines a 3D shape by extruding a 2D profile (circle, rectangle, etc.) along a direction (usually the duct’s length).
+The important part is its SweptArea, which is the 2D profile.
+
+
+IfcCircleProfileDef / IfcRectangleProfileDef
+
+If the profile is a circle, we know the duct is round. → profile.Radius gives the radius.
+If it’s a rectangle, the duct is rectangular. → profile.XDim and profile.YDim give width & height.
