@@ -18,10 +18,6 @@ Group 13:
 Link: https://github.com/s223928/Group-13.git
 
 
-Group 14:
-Link: https://github.com/Dicle11/Group-14.git
-
-
 Group 15:
 Link: https://github.com/Kolde16/Group-15.git
 
