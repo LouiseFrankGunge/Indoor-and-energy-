@@ -31,3 +31,6 @@ Selvom det er opdelt pr rum
 
 A2f: Information Requirements
 
+kritisk tryktab gruppe 6 2025
+
+
