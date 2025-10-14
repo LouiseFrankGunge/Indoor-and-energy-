@@ -6,7 +6,7 @@ Indoor (and Energy)
 Use case: BIM analysis Toolkit - Indoor Climate and Energy Focus
 
 Project Scope:
-Development of af Python based toolkit to analyse IFC models with focus on Indoor climate and energy performance and conforming compliance with other stakeholders claims and regulations. The analysis includes among others things, a chack of free storage heights, pressure loss in ventilations systems, and U-values assesment of building envelope.
+Development of af Python based toolkit to analyse IFC models with focus on Indoor climate and energy performance and confirming compliance with other stakeholders claims and regulations. The analysis includes among others things, a chack of free storage heights, pressure loss in ventilations systems, and U-values assesment of building envelope.
 
 
 
