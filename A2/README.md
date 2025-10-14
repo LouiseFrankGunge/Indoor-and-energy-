@@ -10,7 +10,7 @@ We are managers of the group
 
 **Reseached Claim**
 
-Select building: 25-06-D-MEP
+Model: 25-06-D-MEP
 
 Claim: Critical path analysis of the pressure loss (page 25)
 
