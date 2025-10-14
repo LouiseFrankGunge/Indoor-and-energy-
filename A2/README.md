@@ -1,6 +1,6 @@
 # BIMmanager group 18
 
-**A2a: About your group**
+**Group infirmation**
 
 Coding level: 2 - neutral 
 
@@ -8,25 +8,30 @@ Focus area: Indoor (and Energy)
 
 We are managers of the group
 
-**A2b: Identify Claim**
+**Reseached Claim**
 
 Select building: 25-06-D-MEP
 
 Claim: Critical path analysis of the pressure loss (page 25)
 
-Description: We are testing if the claim about the critical presurre loss for the different AHU. By calling the differnet ducts that together form the most critical path.
+Description: We are testing if the claim about the critical presurre loss for the different AHU. By calling the differnet ducts and other components that together form the most critical path.
 
-**A2c: Use Case**
+**Use Case and tool idea**
 
-In the BPMN it is shown how we would check the claim, when and the phases that would be required to do in order to check the claim.
-
-**A2d: Scope the use case**
-
-**A2e: Tool Idea**
-
-Based on the attachments where the pressure loss has been calculated, the different ducts used to determine the most critical pressure loss is described. So the idea is, that it would be possible to identify the individual ducts and their known values such as length and diameter, to calculate the critical pressure loss and then check whether it matches what is stated in the report.
-
-**A2f: Information Requirements**
+The tool aims to automate the analysis of pressure losses in a buildings ventilation system using IFC based BIM data. By using Ifcopenshell in Python, the tool extracts ducts, fittings and terminal elements from the IFC model and constructs a network representation of the ventilation system. It then calculates the pressure loss along each path, identifies the critical path with the highest total resistance, and reports the results. This makes performance checking without manual calculations possible. It thereby supports HVAS engingeers by reducing calculation time and they can instead focus on optimizing the system design and efficiency. It can also be used as a tool in the procees of documenting compliance with regulations according to BR18.
 
 
+In the BPMN it is shown how we would check the claim and the phases that would be required to do in order to check the claim.
+
+![alt text](<A2_Pressure loss.svg>)
+
+
+
+**Information Requirements**
+
+To perform the pressure loss analysis the follow information is needed.
+- The structure of the ventilation system and the conncetions between each element.
+- Geometry and dimensions of each component.
+- Property sets with flow and performance data.
+ 
 
