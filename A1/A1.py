@@ -1,7 +1,7 @@
 import ifcopenshell
 
 # Load IFC
-model = ifcopenshell.open(r"Indoor-and-energy-\25-01-D-MEP.ifc")
+model = ifcopenshell.open(r"25-01-D-MEP.ifc")
 
 
 # Categorized ducts
