@@ -23,5 +23,5 @@ Link: https://github.com/Kolde16/Group-15.git
 
 Group ApocalypseBIM (Group 12): Link: https://github.com/teiturteitur/ApocalypseBIM.git
 
-
+![alt text](<A2_Manager_flow.svg>)
 
