@@ -11,7 +11,7 @@ rectangular_ducts = []
 
 
 # Loop over all duct segments
-for duct in model.by_type("IfcFlowSegment"):
+for duct in model.by_type("IfcDuctSegment"):
     
     # Check for geometry representation
     if not duct.Representation:
@@ -40,4 +40,4 @@ for duct in model.by_type("IfcFlowSegment"):
                 height = profile.YDim
                 rectangular_ducts.append((duct, width, height))
 
-print(round_ducts,rectangular_ducts)
+    print(f"  - {duct.GlobalId} : {diameter:.2f} mm")
