@@ -31,6 +31,11 @@ In the table below, is the different names for MEP componets in IfcOpenShell
 | Curved duct        | IfcFlowFitting <br> IfcDuctFitting |
 | Curved pipe        | IfcFlowFitting <br> IfcPipeFitting |
 
+As mentioned, the definitions of different components vary between models depending on how each model is structured. The table above shows some of the different names they can have.
+
+For example, you can use IfcFlowSegment to find both ducts and pipes, but if your Python script simply looks for IfcFlowSegments, it won’t distinguish between the two. To make that distinction, you need to use a more specific name, such as IfcDuctSegment.
+
+On the other hand, if you want to find all AHUs (Air Handling Units), that’s not possible directly because they are often defined as IfcBuildingElementProxy objects. This means that if you search for all IfcBuildingElementProxy, you’ll find everything defined under that category — not just the AHUs. There’s no property you can use to differentiate between these components unless you either inspect the model directly or use a report where you can locate the specific GlobalIDs.
 
 
 
