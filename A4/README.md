@@ -8,6 +8,7 @@ Indoor (and energy)
 Our role is a BIM manager and the manager level is level 2
 
 **Identification of different MEP elements**
+
 The purpose of this assignment is to understand the terminology and object naming conventions used for mechanical components such as pipes, radiators,
 and air handling units (AHUs) in Blender, and to compare these with the corresponding terms and structures used in OpenShell.
 
@@ -18,13 +19,19 @@ which can complicate the process of linking or manipulating these elements withi
 
 **IfcOpenShell names**
 
-Duct - IfcDuctSegement, IfcFlowSegement
-Pipe - IfcFlowSegement, IfcPipeSegement
-AHU - IfcBuildingElementProxy
-Radiators/convecters - IfcBuildingElementProxy, IfcSpaceHeater
-Diffuser - IfcAirTherminal
+In the table below, is the different names for MEP componets in IfcOpenShell
 
-When the pipe or duct is not straight it is called a IfcPipeFitting or IfcDuctFitting or IfcFlowFitting
+| Componet | IfcOpenShell |
+|:------------|:-------------:|
+| Duct        | IfcFlowSegement <br> IfcDuctSegement | 
+| Pipe        | IfcFlowSegement <br> IfcPipeSegement |
+| Radiators/convecters        | IfcBuildingElementProxy <br> IfcSpaceHeater |
+| AHU       | IfcBuildingElementProxy |
+| Diffuser        | IfcAirTherminal |
+| Curved duct        | IfcFlowFitting <br> IfcDuctFitting |
+| Curved pipe        | IfcFlowFitting <br> IfcPipeFitting |
+
+
 
 
 
