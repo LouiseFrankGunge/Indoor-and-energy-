@@ -17,19 +17,26 @@ In some cases, elements such as pipes, radiators, or AHUs may be defined as gene
 As a result, they cannot be easily identified or accessed through Python scripting,
 which can complicate the process of linking or manipulating these elements within the MEP model.
 
-**IfcOpenShell names**
+**Ifc types**
 
-In the table below, is the different names for MEP componets in IfcOpenShell
+In the table below, is the different names for MEP Categories in IfcOpenShell
 
-| Componet | IfcOpenShell |
+| Category | Ifc type |
 |:------------|:-------------:|
 | Duct        | IfcFlowSegement <br> IfcDuctSegement | 
 | Pipe        | IfcFlowSegement <br> IfcPipeSegement |
 | Radiators/convecters        | IfcBuildingElementProxy <br> IfcSpaceHeater |
-| AHU       | IfcBuildingElementProxy |
-| Diffuser        | IfcAirTherminal |
-| Curved duct        | IfcFlowFitting <br> IfcDuctFitting |
-| Curved pipe        | IfcFlowFitting <br> IfcPipeFitting |
+| AHU       | IfcBuildingElementProxy <br> IfcUnitaryEquipment |
+| Diffuser        | IfcAirTherminal  |
+| Duct fitting       | IfcFlowFitting <br> IfcDuctFitting |
+| Pipe fitting       | IfcFlowFitting <br> IfcPipeFitting |
+| Fan       | IfcFan |
+| Coil      | IfcCoil |
+| Valve      | IfcValve |
+| Pump       | IfcPump |
+| Tank       | IfcTank |
+| Light fixture       | IfcLightFixture |
+
 
 As mentioned, the definitions of different components vary between models depending on how each model is structured. The table above shows some of the different names they can have.
 
@@ -64,6 +71,7 @@ for ifc_type in ifc_types:
         for e in elements:
             print(f" - Type: {e.is_a()} | GlobalID: {e.GlobalId}")
         print()  # Blank line for readability
+
 
 
 
