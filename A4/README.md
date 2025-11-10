@@ -37,6 +37,34 @@ For example, you can use IfcFlowSegment to find both ducts and pipes, but if you
 
 On the other hand, if you want to find all AHUs (Air Handling Units), that’s not possible directly because they are often defined as IfcBuildingElementProxy objects. This means that if you search for all IfcBuildingElementProxy, you’ll find everything defined under that category — not just the AHUs. There’s no property you can use to differentiate between these components unless you either inspect the model directly or use a report where you can locate the specific GlobalIDs.
 
+**Script for testing**
+
+The script below can be used to identify the various element types present in the model and to generate a list of all GlobalIDs corresponding to each detected type
+
+```python
+import ifcopenshell
+
+# Open IFC model and replace the path below with your actual IFC file path
+model = ifcopenshell.open("")
+
+# Define the IFC types you want to search for
+ifc_types = [
+    "IfcDuctSegment",
+    "IfcPipeSegment"
+]
+
+# Search for each type
+for ifc_type in ifc_types:
+    elements = model.by_type(ifc_type)
+
+    if not elements:
+        print(f" {ifc_type} not found in file.\n")
+    else:
+        print(f" Found {len(elements)} elements of type {ifc_type}:")
+        for e in elements:
+            print(f" - Type: {e.is_a()} | GlobalID: {e.GlobalId}")
+        print()  # Blank line for readability
+
 
 
 
