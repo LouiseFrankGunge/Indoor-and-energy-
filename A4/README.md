@@ -73,9 +73,11 @@ for ifc_type in ifc_types:
         print()  # Blank line for readability
 
 
+'''
 
 *AI Acknowledgment*
 Generative AI was used to support the programming skills of the group.
+
 
 
 
