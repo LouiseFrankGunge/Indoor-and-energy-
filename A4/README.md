@@ -74,5 +74,9 @@ for ifc_type in ifc_types:
 
 
 
+*AI Acknowledgment*
+Generative AI was used to support the programming skills of the group.
+
+
 
 
