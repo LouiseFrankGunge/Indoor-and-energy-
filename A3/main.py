@@ -7,52 +7,6 @@ Group number: 18
 Institution: DTU (Technical University of Denmark)
 Course: Advanced BIM
 Version: Final
-
-Overview:
----------
-This script reads an IFC model exported from Revit (or similar BIM software) 
-and extracts information about MEP components — including ventilation, 
-plumbing, heating, and fire protection systems.
-
-The tool generates a multi-sheet Excel workbook summarizing:
-    - All individual components (one sheet per system)
-    - Count and total length per type and size
-    - A system-wide summary overview
-
-It only uses **explicit geometry** (IfcExtrudedAreaSolid) for measuring 
-diameter and length, which results are accurate for elements modeled as true extrusion solids.
-
--------------------------------------------------------------------------------
-Requirements
--------------------------------------------------------------------------------
-You must have the following Python packages installed:
-
-    pip install ifcopenshell pandas openpyxl
-
--------------------------------------------------------------------------------
-How to Use
--------------------------------------------------------------------------------
-1. Update the `ifc_path` variable at the bottom of this file 
-   with your IFC file path.
-2. Run the script:
-3. The Excel file will be saved to the path defined in `out_xlsx`.
-
--------------------------------------------------------------------------------
-Output Example
--------------------------------------------------------------------------------
-Excel workbook: ifc_bom_geometry_only.xlsx
-
-Sheets:
-    - Ventilation
-    - Plumbing
-    - Fire Protection
-    - Other
-    - SUMMARY
-
-Each system sheet includes:
-    GlobalId | EntityType | ObjectType | Name | Level | Diameter_mm | Length_mm | Length_m
-
--------------------------------------------------------------------------------
 """
 
 import ifcopenshell
@@ -233,10 +187,10 @@ def classify_system(element):
 
 
 # =============================================================================
-# Main Processing Function
+# Main  Function
 # =============================================================================
 
-def build_list(ifc_path, out_xlsx):
+def build_list(model_path, out_xlsx):
     """
     Process the IFC model and create the Excel component workbook.
 
@@ -254,7 +208,7 @@ def build_list(ifc_path, out_xlsx):
 
     Parameters
     ----------
-    ifc_path : str
+    model_path : str
         Full path to the IFC file.
 
     out_xlsx : str
@@ -348,6 +302,7 @@ def build_list(ifc_path, out_xlsx):
             "System": sys_name,
             "Components": total_components,
             "Unique ObjectTypes": df["ObjectType"].nunique(),
+            "Total length (m)": total_length,
         })
 
     # -------------------------------------------------------------------------
