@@ -1,5 +1,7 @@
-***A3 – MEP Component List Generating Tool***
+# A3 – MEP Component List Generating Tool
+
 **About the Tool**
+
 Problem Statement
 
 The tool was developed to address a problem identified during the process of completing this assignment.
