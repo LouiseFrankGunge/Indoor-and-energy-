@@ -96,4 +96,4 @@ Model Requirements:
 
 
 *AI Acknowledgment*
-Generative AI was used to support the prommaming skills of the group.
+Generative AI was used to support the programming skills of the group.
