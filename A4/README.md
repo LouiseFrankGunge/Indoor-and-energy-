@@ -68,8 +68,8 @@ for ifc_type in ifc_types:
         print(f" {ifc_type} not found in file.\n")
     else:
         print(f" Found {len(elements)} elements of type {ifc_type}:")
-        for e in elements:
-            print(f" - Type: {e.is_a()} | GlobalID: {e.GlobalId}")
+        for i in elements:
+            print(f" - Type: {i.is_a()} | GlobalID: {i.GlobalId}")
         print()  # Blank line for readability
 
 
@@ -78,6 +78,7 @@ for ifc_type in ifc_types:
 *AI Acknowledgment*
 
 Generative AI was used to support the programming skills of the group.
+
 
 
 
