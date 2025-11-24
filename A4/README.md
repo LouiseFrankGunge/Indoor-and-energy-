@@ -57,7 +57,7 @@ The script below can be used to identify the various element types present in th
 ```python
 import ifcopenshell
 
-# Open IFC model and replace the path below with your actual IFC file path
+# Open IFC model
 model = ifcopenshell.open("")
 
 # Define the IFC types you want to search for
@@ -76,7 +76,7 @@ for ifc_type in ifc_types:
         print(f" Found {len(elements)} elements of type {ifc_type}:")
         for i in elements:
             print(f" - Type: {i.is_a()} | GlobalID: {i.GlobalId}")
-        print()  # Blank line for readability
+        print()  
 
 
 ```
@@ -84,6 +84,7 @@ for ifc_type in ifc_types:
 *AI Acknowledgment*
 
 Generative AI was used to support the programming skills of the group.
+
 
 
 
