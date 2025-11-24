@@ -8,18 +8,17 @@ Indoor (and energy)
 Our role is a BIM manager and the manager level is level 2
 
 **Teach**
-Our A4 teach is different from our A3 tool because we were told that it should focus on something we learned during the course, and not necessarily on the specific tool we chose.
 
-So instead of using our tool A3, which we also had to change, as it was not possible to implement due to the way the IFC model was structured. We chose to explain the different IFC types that MEP elements can be assigned. We also demonstrate how to determine what these elements are called in the specific IFC model you are working with.
+The tool used for our A4 teach is different from our A3 tool as we were told that it should focus on something we learned during the course, and not necessarily on the specific tool we chose.
 
-The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. In some cases, components are defined using a generic IFC type instead of a specific one, which makes it difficult to distinguish between different MEP objects that fall under the same generic classification.
+A different tool was therefore implemented instead of using the tool from A3, which also had to be edited, as it was not possible to implement due to the way the IFC model was structured. We chose to explain the different IFC types that MEP elements can be assigned. We also demonstrate how to determine what these elements are called in the specific IFC model you are working with. The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. 
 
 **Identification of different MEP elements**
 
 The purpose of this assignment is to understand the terminology and object naming conventions used for mechanical components such as pipes, radiators,
 and air handling units (AHUs) in Blender, and to compare these with the corresponding terms and structures used in OpenShell.
 
-This is because the components are not always consistently named in Blender,as the naming can vary depending on how the model has been structured.
+As mentioned, this is because the components are not always consistently named in Blender,as the naming can vary depending on how the model has been structured.
 In some cases, elements such as pipes, radiators, or AHUs may be defined as generic or non-specific objects.
 As a result, they cannot be easily identified or accessed through Python scripting,
 which can complicate the process of linking or manipulating these elements within the MEP model.
