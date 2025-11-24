@@ -9,9 +9,9 @@ Our role is a BIM manager and the manager level is level 2
 
 **Teach**
 
-The tool used for our A4 teach is different from our A3 tool as we were told that it should focus on something we learned during the course, and not necessarily on the specific tool we chose.
+The tool used for our A4 teach is different from our A3 tool as we were told that it should focus on something we learned during the course, and not necessarily on the specific tool we chose to do in A3.
 
-A different tool was therefore implemented instead of using the tool from A3, which also had to be edited, as it was not possible to implement due to the way the IFC model was structured. We chose to explain the different IFC types that MEP elements can be assigned. We also demonstrate how to determine what these elements are called in the specific IFC model you are working with. The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. 
+A different tool was therefore implemented instead of using the tool from A3, which also had to be changed from our idea in A2, as it was not possible to implement due to the way the IFC model was exported from Revit. We chose to explain the different IFC types that MEP elements can be assigned. We also demonstrate how to determine what these elements are called in the specific IFC model you are working with. The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. 
 
 **Summary**
 
@@ -23,13 +23,9 @@ A different tool was therefore implemented instead of using the tool from A3, wh
 
 **Identification of different MEP elements**
 
-The purpose of this assignment is to understand the terminology and object naming conventions used for mechanical components such as pipes, radiators,
-and air handling units (AHUs) in Blender, and to compare these with the corresponding terms and structures used in OpenShell.
+The purpose of this assignment is to provide a clearer understanding of how MEP components such as pipes, radiators, and air handling units (AHUs), may be defined within IFC files, which may differ between IFC files.
 
-As mentioned, this is because the components are not always consistently named in the IFC file, as the naming can vary depending on how the model has been structured.
-In some cases, elements such as pipes, radiators, or AHUs may be defined as generic or non-specific objects.
-As a result, they cannot be easily identified or accessed through Python scripting,
-which can complicate the process of linking or manipulating these elements within the MEP model.
+This is important because components are not always named consistently in IFC files; the assigned types can vary depending on how the model was created. In some cases, elements like pipes, radiators, or AHUs may be defined as generic objects rather than specific IFC classes. As a result, they cannot be easily identified or accessed through Python, which complicates the process of locating, linking, or manipulating these elements within an MEP model.
 
 **IFC types**
 
@@ -94,6 +90,7 @@ In our A4.ipynb Jupyter Notebook, there are more scripts demonstrating different
 *AI Acknowledgment*
 
 Generative AI was used to support the programming skills of the group.
+
 
 
 
