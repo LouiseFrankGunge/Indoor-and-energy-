@@ -8,10 +8,11 @@ Indoor (and energy)
 Our role is a BIM manager and the manager level is level 2
 
 **Teach**
-
-The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. In some cases, components are defined using a generic IFC type instead of a specific one, which makes it difficult to distinguish between different MEP objects that fall under the same generic classification.
+Our A4 teach is different from our A3 tool because we were told that it should focus on something we learned during the course, and not necessarily on the specific tool we chose.
 
 So instead of using our tool A3, which we also had to change, as it was not possible to implement due to the way the IFC model was structured. We chose to explain the different IFC types that MEP elements can be assigned. We also demonstrate how to determine what these elements are called in the specific IFC model you are working with.
+
+The topic was chosen because, during the creation of A1, we discovered that in IFC files the names of MEP objects are not always consistent. In some cases, components are defined using a generic IFC type instead of a specific one, which makes it difficult to distinguish between different MEP objects that fall under the same generic classification.
 
 **Identification of different MEP elements**
 
@@ -81,9 +82,12 @@ for ifc_type in ifc_types:
 
 ```
 
+In our A4.ipynb Jupyter Notebook, there are more scripts demonstrating different ways to check which IFC types are present in the models
+
 *AI Acknowledgment*
 
 Generative AI was used to support the programming skills of the group.
+
 
 
 
