@@ -15,9 +15,11 @@ A different tool was therefore implemented instead of using the tool from A3, wh
 
 **Summary**
 
-Title: Identifying IFC types in MEP models
-Category: Indoor & Energy / Acoustic / Daylight
-Description: Explains common IFC type names used in MEP models and shows how to determine which names appear in a given IFC file, addressing inconsistencies where identical components may be assigned different classifications across models.
+*Title*: Identifying IFC types in MEP models
+
+*Category*: Indoor & Energy / Acoustic / Daylight
+
+*Description*: Explains common IFC type names used in MEP models and shows how to determine which names appear in a given IFC file, addressing inconsistencies where identical components may be assigned different classifications across models.
 
 **Identification of different MEP elements**
 
@@ -92,6 +94,7 @@ In our A4.ipynb Jupyter Notebook, there are more scripts demonstrating different
 *AI Acknowledgment*
 
 Generative AI was used to support the programming skills of the group.
+
 
 
 
