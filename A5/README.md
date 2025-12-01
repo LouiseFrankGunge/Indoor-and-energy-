@@ -39,6 +39,32 @@ Going into A4, the uncertainty from A3 made the process difficult to navigate. F
 
 *s223897*
 
+Learning experience 
+
+-	I feel like there is still a lot you can learn about the concept of OpenBIM, but I also feel that I have learned a lot in the course, especially because my knowledge before starting was mainly limited to working in OpenBIM and not using it to get information.
+  
+-	In the future, when working with models in OpenBIM, I will use what I have learned in this course to more easily retrieve the information I need and ensure that I export the required data correctly.
+  
+Your process of developing the tutorial
+
+-	I have not formulated specific thesis questions yet, but the course has definitely set some ideas in motion and given me a clearer sense of potential directions.
+  
+-	I appreciated having freedom in choosing the use case. It allowed for creativity and made it easier to pivot if the original tool concept did not work, while still staying within the scope of the use case. However, the expectations regarding the use case developed by the managers could have been a bit clearer.
+  
+-	I found the number of tools in the course fine. 
+
+Your future for Advanced use of OpenBIM
+
+-	I will likely use some form of OpenBIM in my thesis. I’m not sure how yet, but maybe to handle results more efficiently.
+  
+-	I find digital design tools interesting, so I think there is a strong possibility that I will still be working with OpenBIM in ten years.
+
+Wrap up
+
+-	Throughout the course, there has generally been a strong connection between the assignments, each building on previous concepts and ideas. In the first assignment, you gain an understanding of what OpenBIM can be used for and how to create simple scripts. In Assignment 2, it made sense to further develop your idea and add more complexity. However, the second part of Assignment 2, the flowchart, was somewhat confusing, particularly regarding what it should include and how it connected to the rest of the assignment. Assignments 3 and 4 followed naturally, but the purpose of the tutorial in Assignment 4 was not entirely clear, which reduced its connection to the previous tasks.
+
+
+
 *S22...*
 
 **Your process of developing the tutorial**
@@ -47,6 +73,7 @@ Going into A4, the uncertainty from A3 made the process difficult to navigate. F
 **Feedback from other groups**
 
 The feedback we received consisted mainly of questions. One of them asked whether it is possible to use a script to determine if elements are connected. This is not possible due to the way the Revit files were exported to IFC. This issue is explained in more detail in our A3, where it is also stated that we had to pevit our use case, and that we think out tool i stage C and stage D.
+
 
 
 
