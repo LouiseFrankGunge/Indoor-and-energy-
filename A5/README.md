@@ -37,15 +37,20 @@ Wrap-Up
 The initial assignment in this course was a great lead-up to developing the BIM tool. It provided a good starting point for working with the different tools. Assignment A2 was difficult to begin because I felt more introduction was needed. The process of deciding on the use case and analysing previous Advanced Building Design projects made sense, but creating the IDM diagram was confusing for someone who had never made one before. For example, the required level of detail was unclear to me.
 Going into A4, the uncertainty from A3 made the process difficult to navigate. For me, this resulted in a somewhat uneven learning curve. Normally, the uncertainty surrounding a subject fades in the beginning, but in this case, it felt like more uncertainty arose throughout the development of A3 and A4. As a result, the learning curve became very individual and varied.
 
-*s22...*
+*s223897*
 
 *S22...*
 
+**Your process of developing the tutorial**
 
 
 **Feedback from other groups**
 
-The feedback we received consisted mainly of questions. One of them asked whether it is possible to use a script to determine if elements are connected. This is not possible due to the way the Revit files were exported to IFC. This issue is explained in more detail in our A3.
+The feedback we received consisted mainly of questions. One of them asked whether it is possible to use a script to determine if elements are connected. This is not possible due to the way the Revit files were exported to IFC. This issue is explained in more detail in our A3, where it is also stated that we had to pevit our use case, and that we think out tool i stage C and stage D.
+
+
+
+
 
 
 
