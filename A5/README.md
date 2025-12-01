@@ -11,6 +11,7 @@ https://github.com/LouiseFrankGunge/Indoor-and-energy-/tree/38e35d973011ab16047b
 **Individual Reflections**
 
 *s223934*
+
 Learning Experience
 •	When starting this course, I had some prior knowledge of the concept of openBIM from having taken the introductory openBIM course. That said, the approach to how openBIM can be used is very different in the two courses. Therefore, I feel like I am missing some foundational theory on how to develop tools and how an IFC file is structured.
 •	If/when openBIM becomes integrated into the building sector, using it as a means to deliver information to, for example, contractors seems very likely to me.
@@ -37,6 +38,7 @@ Going into A4, the uncertainty from A3 made the process difficult to navigate. F
 **Feedback from other groups**
 
 The feedback we received consisted mainly of questions. One of them asked whether it is possible to use a script to determine if elements are connected. This is not possible due to the way the Revit files were exported to IFC. This issue is explained in more detail in our A3.
+
 
 
 
