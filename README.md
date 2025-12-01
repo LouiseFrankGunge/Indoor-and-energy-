@@ -21,7 +21,8 @@ Group 15:
 Link: https://github.com/Kolde16/Group-15.git
 
 
-Group ApocalypseBIM (Group 12): Link: https://github.com/teiturteitur/ApocalypseBIM.git
+Group 12:
+Link: https://github.com/teiturteitur/BIManalyst_g_12 
 
 The flowchart shows how use cases are imported and reviewed to determine whether they fall within the project scope.
 ![Alt text](A2/IMG/A2_Manager.svg)
