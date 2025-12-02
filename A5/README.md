@@ -64,11 +64,30 @@ Wrap up
 -	Throughout the course, there has generally been a strong connection between the assignments, each building on previous concepts and ideas. In the first assignment, you gain an understanding of what OpenBIM can be used for and how to create simple scripts. In Assignment 2, it made sense to further develop your idea and add more complexity. However, the second part of Assignment 2, the flowchart, was somewhat confusing, particularly regarding what it should include and how it connected to the rest of the assignment. Assignments 3 and 4 followed naturally, but the purpose of the tutorial in Assignment 4 was not entirely clear, which reduced its connection to the previous tasks.
 
 
+*S223917*
 
-*S22...*
+Learning experience 
 
-**Your process of developing the tutorial**
+-  Even though I had a previous OpenBIM course, I still felt I lacked practical knowledge about how to use the tools to share information. This course offered a different perspective and showed new ways of retrieving information. However, I still feel that there is a lot more to learn and that I am missing some fundamental aspects of OpenBIM
 
+-  In the future I imagine that OpenBIM could be very useful for me in order to retrieve information from IFC models  
+
+Your process of developing the tutorial
+
+-  Due to the freedom in the assignment, it was sometimes unclear whether or not we were going in the right direction or meeting the expectations of the assignment, therefore a few more guidelines would have been nice. However, the room the assignment gave for creativity was also appreciated and resulted in many interesting tools.
+
+-  The number of tools in the course was fine
+
+Your future for Advanced use of OpenBIM
+
+-  As of now it is likely that I will use OpenBIM in my thesis, however I do think it will be to a small degree.
+
+-  I think it is very likely that OpenBIM will become part of my professional life in the next 10 years, as I can see it being a useful tool in many areas of the industry that interest me.
+
+Wrap up
+
+-  The assignments throughout the course had a natural progression, with each assignment building on what was done and learned in the previous one. The first assignment also worked as a good introduction to the use of ifcopenshell in python. However, the role as the manager of the group was also quite confusing in the beginning. Assignment 2 would have benefitted from an introduction, as creating the flowchart was somewhat confusing. Assignment 3 and 4 followed each other well, but there was some uncertainty carried over from A3 to A4. 
+ 
 
 **Feedback from other groups**
 
